@@ -14,7 +14,7 @@ const openai = new OpenAIApi(configuration);
 
 
 const question = 'extract values from this csv file and translate all texts to English, present in json form'
-const fileContent = rows.toString().substring(0, 4000)
+const fileContent = rows.toString().substring(0, 1000)
 
 console.log('question:', question)
 
