@@ -13,7 +13,7 @@ const rows = await readXlsxFile('./financial-statements.XLSX')
 const openai = new OpenAIApi(configuration);
 
 
-const question = 'list all values this file in table and translate all texts to English'
+const question = 'extract values from this csv file and translate all texts to English, present in json form'
 const fileContent = rows.toString().substring(0, 4000)
 
 console.log('question:', question)
