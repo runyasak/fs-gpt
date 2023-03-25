@@ -10,7 +10,7 @@ $ pnpm install
 
 ## How to use
 
-1. Create `.env` file with `OPENAI_API_KEY`
+1. Create `.env` file with `OPENAI_API_KEY`, or rename from `.env.example`
 
 ```
 OPENAI_API_KEY=<YOU_OPENAI_API_KEY>
